@@ -7,3 +7,7 @@
   <li>AWS Lambda executes the Lambda function.</li>
   <li>From the event data it receives, the Lambda function knows the source bucket name and object key name. The Lambda function reads the object and creates a thumbnail using graphics libraries, then saves the thumbnail to the target bucket.</li>
 </ul>
+
+## Architecture
+
+![alt text](https://github.com/TheDarkKnight-1/image-thumbnail-application/blob/main/arc.png?raw=true)
